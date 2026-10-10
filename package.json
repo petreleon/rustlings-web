@@ -1,0 +1,41 @@
+{
+  "name": "rustlings-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "npm run compiler:prepare",
+    "build": "next build",
+    "start": "node scripts/preview.mjs",
+    "compiler:prepare": "node scripts/prepare-compiler.mjs",
+    "exercises:sync": "node scripts/sync-exercises.mjs",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "predev": "npm run compiler:prepare"
+  },
+  "dependencies": {
+    "@codemirror/lang-rust": "^6.0.2",
+    "@codemirror/state": "^6.7.6",
+    "@codemirror/theme-one-dark": "^6.1.3",
+    "@codemirror/view": "^6.43.14",
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "codemirror": "^6.0.2",
+    "lucide-react": "^0.577.0",
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "@iarna/toml": "^2.2.5",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

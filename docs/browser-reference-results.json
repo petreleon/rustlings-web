@@ -1,0 +1,503 @@
+{
+  "date": "2026-10-10",
+  "browser": "Chromium 154, macOS",
+  "rustlingsCommit": "2af9e89ba536fad01aa828b06e0ac2174bad0f6d",
+  "toolchainRelease": "artifacts-test-7",
+  "workerSha256": "d54507646faf10312932cb13e41eb5321a65fd7e2e37bf69cea3fcea83216573",
+  "compilerArguments": "Rust 2024; wasm32-wasip1; -O; panic=abort",
+  "results": [
+    {
+      "id": "intro1",
+      "ok": true,
+      "ms": 63
+    },
+    {
+      "id": "intro2",
+      "ok": true,
+      "ms": 75
+    },
+    {
+      "id": "variables1",
+      "ok": true,
+      "ms": 62
+    },
+    {
+      "id": "variables2",
+      "ok": true,
+      "ms": 50
+    },
+    {
+      "id": "variables3",
+      "ok": true,
+      "ms": 61
+    },
+    {
+      "id": "variables4",
+      "ok": true,
+      "ms": 46
+    },
+    {
+      "id": "variables5",
+      "ok": true,
+      "ms": 53
+    },
+    {
+      "id": "variables6",
+      "ok": true,
+      "ms": 50
+    },
+    {
+      "id": "functions1",
+      "ok": true,
+      "ms": 67
+    },
+    {
+      "id": "functions2",
+      "ok": true,
+      "ms": 68
+    },
+    {
+      "id": "functions3",
+      "ok": true,
+      "ms": 92
+    },
+    {
+      "id": "functions4",
+      "ok": true,
+      "ms": 46
+    },
+    {
+      "id": "functions5",
+      "ok": true,
+      "ms": 52
+    },
+    {
+      "id": "if1",
+      "ok": true,
+      "passed": 3,
+      "ms": 109
+    },
+    {
+      "id": "if2",
+      "ok": true,
+      "passed": 3,
+      "ms": 94
+    },
+    {
+      "id": "if3",
+      "ok": true,
+      "passed": 4,
+      "ms": 85
+    },
+    {
+      "id": "quiz1",
+      "ok": true,
+      "passed": 1,
+      "ms": 72
+    },
+    {
+      "id": "primitive_types1",
+      "ok": true,
+      "ms": 43
+    },
+    {
+      "id": "primitive_types2",
+      "ok": true,
+      "ms": 47
+    },
+    {
+      "id": "primitive_types3",
+      "ok": true,
+      "ms": 48
+    },
+    {
+      "id": "primitive_types4",
+      "ok": true,
+      "passed": 1,
+      "ms": 94
+    },
+    {
+      "id": "primitive_types5",
+      "ok": true,
+      "ms": 53
+    },
+    {
+      "id": "primitive_types6",
+      "ok": true,
+      "passed": 1,
+      "ms": 70
+    },
+    {
+      "id": "vecs1",
+      "ok": true,
+      "passed": 1,
+      "ms": 81
+    },
+    {
+      "id": "vecs2",
+      "ok": true,
+      "passed": 3,
+      "ms": 116
+    },
+    {
+      "id": "move_semantics1",
+      "ok": true,
+      "passed": 1,
+      "ms": 81
+    },
+    {
+      "id": "move_semantics2",
+      "ok": true,
+      "passed": 1,
+      "ms": 84
+    },
+    {
+      "id": "move_semantics3",
+      "ok": true,
+      "passed": 1,
+      "ms": 76
+    },
+    {
+      "id": "move_semantics4",
+      "ok": true,
+      "passed": 1,
+      "ms": 75
+    },
+    {
+      "id": "move_semantics5",
+      "ok": true,
+      "ms": 59
+    },
+    {
+      "id": "structs1",
+      "ok": true,
+      "passed": 3,
+      "ms": 99
+    },
+    {
+      "id": "structs2",
+      "ok": true,
+      "passed": 1,
+      "ms": 88
+    },
+    {
+      "id": "structs3",
+      "ok": true,
+      "passed": 3,
+      "ms": 91
+    },
+    {
+      "id": "enums1",
+      "ok": true,
+      "ms": 51
+    },
+    {
+      "id": "enums2",
+      "ok": true,
+      "ms": 81
+    },
+    {
+      "id": "enums3",
+      "ok": true,
+      "passed": 1,
+      "ms": 99
+    },
+    {
+      "id": "strings1",
+      "ok": true,
+      "ms": 51
+    },
+    {
+      "id": "strings2",
+      "ok": true,
+      "ms": 58
+    },
+    {
+      "id": "strings3",
+      "ok": true,
+      "passed": 3,
+      "ms": 108
+    },
+    {
+      "id": "strings4",
+      "ok": true,
+      "ms": 93
+    },
+    {
+      "id": "modules1",
+      "ok": true,
+      "ms": 52
+    },
+    {
+      "id": "modules2",
+      "ok": true,
+      "ms": 44
+    },
+    {
+      "id": "modules3",
+      "ok": true,
+      "ms": 61
+    },
+    {
+      "id": "hashmaps1",
+      "ok": true,
+      "passed": 2,
+      "ms": 101
+    },
+    {
+      "id": "hashmaps2",
+      "ok": true,
+      "passed": 4,
+      "ms": 152
+    },
+    {
+      "id": "hashmaps3",
+      "ok": false,
+      "ms": 112,
+      "output": "error: wasm emission failed: translating function `_RNvMsx_NtCs5YIeRrg71Nh_4core3numh16from_ascii_radix`: lowering `v99 = uextend.i16 v98`: extend to i16 unimplemented"
+    },
+    {
+      "id": "quiz2",
+      "ok": true,
+      "passed": 1,
+      "ms": 116
+    },
+    {
+      "id": "options1",
+      "ok": true,
+      "passed": 2,
+      "ms": 75
+    },
+    {
+      "id": "options2",
+      "ok": true,
+      "passed": 2,
+      "ms": 84
+    },
+    {
+      "id": "options3",
+      "ok": true,
+      "ms": 63
+    },
+    {
+      "id": "errors1",
+      "ok": true,
+      "passed": 2,
+      "ms": 95
+    },
+    {
+      "id": "errors2",
+      "ok": true,
+      "passed": 2,
+      "ms": 91
+    },
+    {
+      "id": "errors3",
+      "ok": true,
+      "ms": 75
+    },
+    {
+      "id": "errors4",
+      "ok": true,
+      "passed": 1,
+      "ms": 127
+    },
+    {
+      "id": "errors5",
+      "ok": false,
+      "ms": 68,
+      "output": "[{\"level\":\"error\",\"message\":\"wasm emission failed: translating function `_RNvMsr_NtCs5YIeRrg71Nh_4core3numx16from_ascii_radix`: lowering `v135 = smulhi.i64 v133, v132`: unimplemented binary opcode smulhi on i64\",\"code\":null,\"line\":null,\"col\":null,\"endLine\":null,\"endCol\":null,\"rendered\":\"error: wasm emission failed: translating function `_RNvMsr_NtCs5YIeRrg71Nh_4core3numx16from_ascii_radix`: lowering `v135 = smulhi.i64 v133, v132`: unimplemented binary opcode smulhi on i64\",\"ansi\":\"\\u001b[1m\\u001b[91merror\\u001b[0m\\u001b[1m: wasm emission failed: translating function `_RNvMsr_NtCs5YIeRrg71Nh_4core3numx16from_ascii_radix`: lowering `v135 = smulhi.i64 v133, v132`: unimplemented binary opcode smulhi on i64\\u001b[0m\"}]"
+    },
+    {
+      "id": "errors6",
+      "ok": false,
+      "ms": 86,
+      "output": "error: wasm emission failed: translating function `_RNvMsr_NtCs5YIeRrg71Nh_4core3numx16from_ascii_radix`: lowering `v135 = smulhi.i64 v133, v132`: unimplemented binary opcode smulhi on i64"
+    },
+    {
+      "id": "generics1",
+      "ok": true,
+      "ms": 66
+    },
+    {
+      "id": "generics2",
+      "ok": true,
+      "passed": 2,
+      "ms": 68
+    },
+    {
+      "id": "traits1",
+      "ok": true,
+      "passed": 2,
+      "ms": 89
+    },
+    {
+      "id": "traits2",
+      "ok": true,
+      "passed": 1,
+      "ms": 84
+    },
+    {
+      "id": "traits3",
+      "ok": true,
+      "passed": 1,
+      "ms": 72
+    },
+    {
+      "id": "traits4",
+      "ok": true,
+      "passed": 2,
+      "ms": 72
+    },
+    {
+      "id": "traits5",
+      "ok": true,
+      "passed": 1,
+      "ms": 68
+    },
+    {
+      "id": "quiz3",
+      "ok": true,
+      "passed": 2,
+      "ms": 79
+    },
+    {
+      "id": "lifetimes1",
+      "ok": true,
+      "passed": 1,
+      "ms": 67
+    },
+    {
+      "id": "lifetimes2",
+      "ok": true,
+      "ms": 57
+    },
+    {
+      "id": "lifetimes3",
+      "ok": true,
+      "ms": 46
+    },
+    {
+      "id": "tests1",
+      "ok": true,
+      "passed": 1,
+      "ms": 61
+    },
+    {
+      "id": "tests2",
+      "ok": true,
+      "passed": 1,
+      "ms": 71
+    },
+    {
+      "id": "tests3",
+      "ok": true,
+      "passed": 1,
+      "ms": 70
+    },
+    {
+      "id": "iterators1",
+      "ok": true,
+      "passed": 1,
+      "ms": 76
+    },
+    {
+      "id": "iterators2",
+      "ok": true,
+      "passed": 4,
+      "ms": 123
+    },
+    {
+      "id": "iterators3",
+      "ok": true,
+      "passed": 7,
+      "ms": 132
+    },
+    {
+      "id": "iterators4",
+      "ok": false,
+      "ms": 58,
+      "output": "error: wasm emission failed: translating function `_RNCINvXsD_NtNtNtCs5YIeRrg71Nh_4core4iter6traits5accumyNtB8_7Product7productINtNtNtBe_3ops5range14RangeInclusiveyEE0Cs4O46E8uaXcz_4prog`: lowering `v6 = umulhi.i64 v3, v4`: unimplemented binary opcode umulhi on i64"
+    },
+    {
+      "id": "iterators5",
+      "ok": true,
+      "passed": 8,
+      "ms": 177
+    },
+    {
+      "id": "box1",
+      "ok": true,
+      "passed": 2,
+      "ms": 77
+    },
+    {
+      "id": "rc1",
+      "ok": true,
+      "passed": 1,
+      "ms": 94
+    },
+    {
+      "id": "arc1",
+      "ok": false,
+      "ms": 107,
+      "output": "thread 'main' (1) panicked at library/std/src/thread/functions.rs:131:29:\nfailed to spawn thread: Os { code: 58, kind: Unsupported, message: \"Not supported\" }\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace"
+    },
+    {
+      "id": "cow1",
+      "ok": true,
+      "passed": 4,
+      "ms": 83
+    },
+    {
+      "id": "macros1",
+      "ok": true,
+      "ms": 38
+    },
+    {
+      "id": "macros2",
+      "ok": true,
+      "ms": 40
+    },
+    {
+      "id": "macros3",
+      "ok": true,
+      "ms": 37
+    },
+    {
+      "id": "macros4",
+      "ok": true,
+      "ms": 45
+    },
+    {
+      "id": "using_as",
+      "ok": true,
+      "passed": 1,
+      "ms": 65
+    },
+    {
+      "id": "from_into",
+      "ok": false,
+      "ms": 93,
+      "output": "error: wasm emission failed: translating function `_RNvMsx_NtCs5YIeRrg71Nh_4core3numh16from_ascii_radix`: lowering `v99 = uextend.i16 v98`: extend to i16 unimplemented"
+    },
+    {
+      "id": "from_str",
+      "ok": false,
+      "ms": 88,
+      "output": "error: wasm emission failed: translating function `_RNvMsx_NtCs5YIeRrg71Nh_4core3numh16from_ascii_radix`: lowering `v99 = uextend.i16 v98`: extend to i16 unimplemented"
+    },
+    {
+      "id": "try_from_into",
+      "ok": false,
+      "ms": 97,
+      "output": "error: wasm emission failed: translating function `_RNvXCs4O46E8uaXcz_4progNtB2_5ColorINtNtCs5YIeRrg71Nh_4core7convert7TryFromTsssEE8try_from`: lowering `v16 = ireduce.i8 v15`: ireduce i16 -> i8 unimplemented"
+    },
+    {
+      "id": "as_ref_mut",
+      "ok": true,
+      "passed": 5,
+      "ms": 79
+    }
+  ]
+}

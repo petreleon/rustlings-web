@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+public/compiler/rustc/
+.cache/
+output/
+.playwright-cli/
+*.tsbuildinfo
+.DS_Store
+.env*
+!.env.example
+next-env.d.ts
